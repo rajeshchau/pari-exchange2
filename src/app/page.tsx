@@ -1,9 +1,7 @@
-import Image from "next/image";
+
 import Header from "./components/Header"
 import Trending from "./components/Trending"
-import { ConnectButton } from "thirdweb/react";
-import { client } from "./client";
-import CMCTable from "./components/cmc-table/CmcTable"
+
 import PriceTickerTable from '../app/context/PriceTickertable';
 import Footer from '../app/context/footer';
 
